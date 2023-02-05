@@ -1,0 +1,18 @@
+@import './variables';
+
+.aboutus-container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 24px 12px;
+
+  h1 {
+    text-align: center;
+    color: $slate-100;
+    font-weight: 100;
+    margin: 16px 0px 8px 0px;
+  }
+  p {
+    color: $slate-300;
+    text-indent: 2rem;
+  }
+}

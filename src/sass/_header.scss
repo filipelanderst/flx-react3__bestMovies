@@ -1,0 +1,74 @@
+.header-container {
+  animation-name: loadingPages;
+  animation-duration: 2s;
+
+  .menu-logo {
+    background-color: black;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 16px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    color: white;
+
+    img {
+      max-width: 30px;
+    }
+  }
+
+  .menu-open {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 3;
+
+    animation-name: menuopen;
+    animation-duration: 300ms;
+  }
+
+  .menu-close {
+    display: none;
+  }
+
+  .menu-list {
+    li {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 48px;
+
+      a {
+        color: $slate-200;
+        text-decoration: none;
+        font-size: 1.5rem;
+
+        margin: 8px 0;
+
+        &:hover {
+          color: cyan;
+        }
+      }
+    }
+  }
+}
+
+.hide-logo {
+  img {
+    display: none;
+  }
+}
+
+@keyframes menuopen {
+  from {
+    opacity: 0.95;
+    margin-left: -1000px;
+  }
+  to {
+    opacity: 1;
+  }
+}

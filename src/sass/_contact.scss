@@ -1,0 +1,33 @@
+@import './variables';
+
+.contact-container {
+  text-align: center;
+  margin: 0 auto;
+  padding: 8px 0px 48px 0px;
+
+  border-bottom: 8px solid $slate-800;
+
+  h1 {
+    margin: 32px 0px 4px 0px;
+    padding: 8px 0px;
+    font-family: callista;
+    font-size: 3.5rem;
+    font-weight: 100;
+    color: $slate-100;
+  }
+
+  .contact-info {
+    max-width: 240px;
+    margin: 0 auto;
+  }
+
+  p {
+    color: $slate-300;
+  }
+
+  .mail-phone {
+    border-bottom: 1px solid $slate-800;
+    padding: 8px 0px;
+    margin: 8px 0px;
+  }
+}
