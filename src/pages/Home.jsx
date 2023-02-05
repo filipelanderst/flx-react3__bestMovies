@@ -64,7 +64,7 @@ function Home() {
         <img src={cover} alt='Cover' loading='lazy' />
       </section>
       <div className='title'>
-        <h1>Best Movies</h1>
+        <h1 translate='no'>Best Movies</h1>
       </div>
       <section className='content'>
         <article className='movie-container'>

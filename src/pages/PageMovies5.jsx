@@ -62,7 +62,7 @@ function PageMovies5() {
   return (
     <div className='allmovies-container'>
       <div className='title'>
-        <h1>All Movies</h1>
+        <h1 translate='no'>All Movies</h1>
       </div>
       <section className='content'>
         <article className='movie-container'>
