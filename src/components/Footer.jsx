@@ -17,7 +17,7 @@ function Footer() {
     <div className='footer-container'>
       <div className='footer-info'>
         <div className='title'>
-          <h1>IMDB API</h1>
+          <h1 translate='no'>IMDB API</h1>
         </div>
 
         <div className='menu-list-mailphone'>
