@@ -324,7 +324,7 @@ function PageMovies3() {
         <div className='mavigation-container'>
           <ul className='navigation'>
             <li className='previous'>
-              <Link to='/pageMovies2' onClick={startOfPage}>
+              <Link to='/PageMovies2' onClick={startOfPage}>
                 <img src={previous} />
               </Link>
             </li>
@@ -332,7 +332,7 @@ function PageMovies3() {
               <Link to='#'>3</Link>
             </li>
             <li className='next'>
-              <Link to='/pageMovies4' onClick={startOfPage}>
+              <Link to='/PageMovies4' onClick={startOfPage}>
                 <img src={next} />
               </Link>
             </li>

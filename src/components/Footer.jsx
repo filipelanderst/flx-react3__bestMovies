@@ -51,7 +51,7 @@ function Footer() {
             <h2>Navigation</h2>
             <li onClick={handleMenu}>
               <Link to='/'>Home</Link>
-              <Link to='/pageMovies1'>All movies</Link>
+              <Link to='/PageMovies1'>All movies</Link>
               <a href='https://imdb-api.com/' target='_blank'>
                 API
               </a>

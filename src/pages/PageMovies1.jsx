@@ -326,7 +326,7 @@ function PageMovies1() {
               <Link to='#'>1</Link>
             </li>
             <li className='next'>
-              <Link to='/pageMovies2' onClick={startOfPage}>
+              <Link to='/PageMovies2' onClick={startOfPage}>
                 <img src={next} />
               </Link>
             </li>
