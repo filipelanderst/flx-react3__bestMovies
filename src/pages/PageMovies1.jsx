@@ -3,7 +3,7 @@ import StarRatings from 'react-star-ratings';
 import { Link } from 'react-router-dom';
 import next from '../img/next.svg';
 
-function pageMovies1() {
+function PageMovies1() {
   const [id, setId] = useState([]);
   const [title, setTitle] = useState([]);
   const [image, setImage] = useState([]);
@@ -337,4 +337,4 @@ function pageMovies1() {
   );
 }
 
-export default pageMovies1;
+export default PageMovies1;

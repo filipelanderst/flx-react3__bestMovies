@@ -47,11 +47,11 @@ import Movie38 from './pages/Movie38';
 import Movie39 from './pages/Movie39';
 import Movie40 from './pages/Movie40';
 
-import PageMovies1 from './pages/pageMovies1';
-import PageMovies2 from './pages/pageMovies2';
-import PageMovies3 from './pages/pageMovies3';
-import PageMovies4 from './pages/pageMovies4';
-import PageMovies5 from './pages/pageMovies5';
+import PageMovies1 from './pages/PageMovies1';
+import PageMovies2 from './pages/PageMovies2';
+import PageMovies3 from './pages/PageMovies3';
+import PageMovies4 from './pages/PageMovies4';
+import PageMovies5 from './pages/PageMovies5';
 
 function App() {
   return (

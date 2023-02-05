@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import next from '../img/next.svg';
 import previous from '../img/previous.svg';
 
-function pageMovies4() {
+function PageMovies4() {
   const [id, setId] = useState([]);
   const [title, setTitle] = useState([]);
   const [image, setImage] = useState([]);
@@ -343,4 +343,4 @@ function pageMovies4() {
   );
 }
 
-export default pageMovies4;
+export default PageMovies4;
