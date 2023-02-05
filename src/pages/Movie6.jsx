@@ -62,7 +62,7 @@ function Movie6() {
       <article className='movie-container'>
         <div className='movie-poster'>
           <Link to='/movie6' onClick={startOfPage}>
-            <img id='img-movie' src={image[5]} loading='lazy' />
+            <img id='img-movie' src={image[5]} />
           </Link>
         </div>
         <div className='movie-info'>

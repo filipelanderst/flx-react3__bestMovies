@@ -67,7 +67,7 @@ function PageMovies3() {
       <section className='content'>
         <article className='movie-container'>
           <Link to='/movie17' onClick={startOfPage}>
-            <img src={image[16]} loading='lazy' />
+            <img src={image[16]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie17' onClick={startOfPage}>
@@ -99,7 +99,7 @@ function PageMovies3() {
 
         <article className='movie-container'>
           <Link to='/movie18' onClick={startOfPage}>
-            <img src={image[17]} loading='lazy' />
+            <img src={image[17]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie18' onClick={startOfPage}>
@@ -131,7 +131,7 @@ function PageMovies3() {
 
         <article className='movie-container'>
           <Link to='/movie19' onClick={startOfPage}>
-            <img src={image[18]} loading='lazy' />
+            <img src={image[18]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie19' onClick={startOfPage}>
@@ -163,7 +163,7 @@ function PageMovies3() {
 
         <article className='movie-container'>
           <Link to='/movie20' onClick={startOfPage}>
-            <img src={image[19]} loading='lazy' />
+            <img src={image[19]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie20' onClick={startOfPage}>
@@ -195,7 +195,7 @@ function PageMovies3() {
 
         <article className='movie-container'>
           <Link to='/movie21' onClick={startOfPage}>
-            <img src={image[20]} loading='lazy' />
+            <img src={image[20]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie21' onClick={startOfPage}>
@@ -227,7 +227,7 @@ function PageMovies3() {
 
         <article className='movie-container'>
           <Link to='/movie22' onClick={startOfPage}>
-            <img src={image[21]} loading='lazy' />
+            <img src={image[21]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie22' onClick={startOfPage}>
@@ -259,7 +259,7 @@ function PageMovies3() {
 
         <article className='movie-container'>
           <Link to='/movie23' onClick={startOfPage}>
-            <img src={image[22]} loading='lazy' />
+            <img src={image[22]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie23' onClick={startOfPage}>
@@ -291,7 +291,7 @@ function PageMovies3() {
 
         <article className='movie-container last'>
           <Link to='/movie24' onClick={startOfPage}>
-            <img src={image[23]} loading='lazy' />
+            <img src={image[23]} />
           </Link>
           <div className='movie-info'>
             <Link to='/movie24' onClick={startOfPage}>
