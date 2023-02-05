@@ -47,11 +47,11 @@ import Movie38 from './pages/Movie38';
 import Movie39 from './pages/Movie39';
 import Movie40 from './pages/Movie40';
 
-import PageMovies1 from './pages/pageMovies1';
-import PageMovies2 from './pages/pageMovies2';
-import PageMovies3 from './pages/pageMovies3';
-import PageMovies4 from './pages/pageMovies4';
-import PageMovies5 from './pages/pageMovies5';
+import pageMovies1 from './pages/pageMovies1';
+import pageMovies2 from './pages/pageMovies2';
+import pageMovies3 from './pages/pageMovies3';
+import pageMovies4 from './pages/pageMovies4';
+import pageMovies5 from './pages/pageMovies5';
 
 function App() {
   return (
@@ -102,11 +102,11 @@ function App() {
           <Route path='/Movie39' element={<Movie39 />} />
           <Route path='/Movie40' element={<Movie40 />} />
 
-          <Route path='/pageMovies1' element={<PageMovies1 />} />
-          <Route path='/pageMovies2' element={<PageMovies2 />} />
-          <Route path='/pageMovies3' element={<PageMovies3 />} />
-          <Route path='/pageMovies4' element={<PageMovies4 />} />
-          <Route path='/pageMovies5' element={<PageMovies5 />} />
+          <Route path='/pageMovies1' element={<pageMovies1 />} />
+          <Route path='/pageMovies2' element={<pageMovies2 />} />
+          <Route path='/pageMovies3' element={<pageMovies3 />} />
+          <Route path='/pageMovies4' element={<pageMovies4 />} />
+          <Route path='/pageMovies5' element={<pageMovies5 />} />
         </Routes>
         <Footer />
       </Router>
